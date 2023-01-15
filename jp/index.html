@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style-language.css">
+  <title>IP GEO LOCATE</title>
+  <meta name="description" content="IP LOCATE WEB.">
+  <meta name="author" content="HappyRogelio7">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../gifs/icon.gif" type="image/gif" sizes="16x16">
+</head>
+
+<body>
+    <div> 
+        <div>
+            <video class="video1" src="../video/Visuals-Your Name(4K).mp4" autoplay="true" muted="true" loop="true">
+        </div>
+        <div class="lang-menu-align">
+            <div class="lang-menu">
+                <div class="selected-lang-jp">Japanese</div>
+                <div>
+                    <ul>
+                        <li><a href="../en/index.html" class="en">English</a></li>
+                        <li><a href="../es/index.html" class="es">Spanish</a></li>
+                        <li><a href="../jp/index.html" class="jp">Japanese</a></li>
+                        <li><a href="../de/index.html" class="de">German</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="div-h1">
+            <h1>IP GEO LOCATE</h1>
+        </div>
+        <div class="searchBox">
+            <input type="text" id="search" placeholder="Search for IP" class="searchInput">
+            <button id="searchBtn" class="searchButton">🔎</button>
+        </div>
+        <div class="informationsearch">
+            <p class="informationsearchp1">Information:</p>
+            <p>IP: <span id="ip"></span></p>
+            <p>Country: <span id="country"></span></p>
+            <p>Region: <span id="region"></span></p>
+            <p>City: <span id="city"></span></p>
+            <p>Zip: <span id="zip"></span></p>
+            <p>Latitude: <span id="lat"></span></p>
+            <p>Longitude: <span id="lon"></span></p>
+            <p>Timezone: <span id="timezone"></span></p>
+            <p>ISP: <span id="isp"></span></p>
+            <p>Organization: <span id="org"></span></p>
+            <p>AS: <span id="as"></span></p>
+            <p>AS Name: <span id="asname"></span></p>
+            <p>Mobile: <span id="mobile"></span></p>
+            <p>Proxy: <span id="proxy"></span></p>
+            <p>Hosting: <span id="hosting"></span></p>
+        </div>
+
+        <div class="map">
+            <div class="googlemaptext">
+                <h2>Map Geo IP:</h2><h5>(Google Maps API)</h5>
+            </div>
+            <div id="googlemap"></div>
+        </div>
+
+        <div>
+            <footer>
+                
+                <div class="socials">
+                    <div class="socials-github">
+                        <a href="https://github.com/HappyRogelio7"><img src="../img/github-mark-white.png">
+                            <div class="socials-github-text">GitHub</div></a>
+                    </div>
+                    <div class="socials-twitter">
+                        <a href="https://twitter.com/HappyRogelio7"><img src="../img/Twitter social icons - circle - blue.png">
+                            <div class="socials-twitter-text">Twitter</div></a>
+                    </div>
+                    <div class="socials-discord">
+                        <a href="https://discord.gg/3EebYUyeUX"><img src="../img/discord-icon_clyde_blurple_RGB.png">
+                            <div class="socials-discord-text">Discord</div></a>
+                    </div>
+                    <div class="socials-instagram">
+                        <a href="https://instagram.com/happyrogelio7"><img src="../img/Instagram_logo_2022.png">
+                            <div class="socials-instagram-text">Instagram</div></a>
+                    </div>
+                    <div class="socials-youtube">
+                        <a href="https://youtube.com/channel/HappyRogelio7"><img src="../img/youtube_social_circle_red.png">
+                            <div class="socials-youtube-text">YouTube</div></a>
+                    </div>
+                </div>
+                <!--div class="infofooter1">
+                    <h2>Kaory Studios</h2>
+                    <p></p>
+                </div-->
+                <div class="centerfooterinfo">
+                    <div class="poweredby">
+                        <p>Powered by 
+                            <a href="https://happyrogelio7.xyz/">HappyRogelio7</a> and 
+                            <a href="https://kaorystudios.xyz/">Kaory Studios</a>.
+                        </p>
+                    </div>
+                    <div class="api-usings">
+                        <p>API Usings <a href="https://ip-api.com/">IP-API</a> and 
+                            <a href="https://developers.google.com/maps/documentation/javascript/overview">Google Maps API</a>.
+                        </p>
+                    </div>
+                    <div class="translators">
+                        <p>Translators: 
+                            <li>
+                            English: <a href="https://happyrogelio7.xyz/">HappyRogelio7</a>.
+                            </li>
+                            <li>
+                            Spanish: <a href="https://happyrogelio7.xyz/">HappyRogelio7</a>.
+                            </li>
+                            <li>
+                            Japanese: <a href="https://happyrogelio7.xyz/">HappyRogelio7</a>.
+                            </li>
+                            <li>
+                            German: <a href="https://www.twitch.tv/infoblock">InfoBlock</a>.
+                            </li>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="copy1">
+                    <p>© 2023 IP LOCATE. All rights reserved. | HappyRogelio7 | Copyright 2023</p>
+                </div>
+
+            </footer>
+        </div>
+
+    </div>
+
+
+    <script src="../js/app.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap"></script>
+
+</body>
+
+</html>

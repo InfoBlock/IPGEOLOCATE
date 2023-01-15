@@ -1,0 +1,397 @@
+body {
+    background-color: rgb(142, 252, 193);
+    color: rgb(0, 0, 0);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+    background: #5757577d;
+    /*border-right: 2px solid #84bd8658;/
+    border-left: 4px solid #84bd8658;*/
+}
+
+/*body::-webkit-scrollbar-track {
+    background: #8d2222;
+}*/
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(57, 52, 52);
+    border-radius: 10px;
+    border-right: 2px solid #84bd8658;
+    border-left: 2px solid #84bd8658;
+}
+
+
+.sect {
+    width: 100%;
+    min-height: 1500px;
+  }
+  #sect1,
+  #sect3 {
+    background-color: #3333337d;
+    color: #fff;
+  }
+  #sect2 {
+    background-color: #dddddd7d;
+    color: #333;
+  }
+
+  .video1 {
+    position: fixed;
+    right: 0;
+    bottom: 5;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 100));
+    z-index: -2;
+  }
+  
+/* Path: css\style.css */
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.div-h1 {
+    font-family: cursive;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin: 10;
+    text-align: center;
+    color: rgb(227, 147, 147);
+}
+
+.searchBox {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform:  translate(-50%,50%);
+    background: #2f3640;
+    height: 41px;
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+/*.searchBox:hover > .searchInput {
+    width: 240px;
+    padding: 0 6px;
+}*/
+
+.searchBox:hover > .searchButton {
+  background: white;
+  color : #2f3640;
+}
+
+.searchButton {
+    color: white;
+    float: right;
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    background: #3c80de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    /*transition: 0.4s;*/
+}
+
+.searchInput {
+    border:none;
+    background: none;
+    outline:none;
+    float:left;
+    padding: 10;
+    color: white;
+    font-size: 25px;
+    /*transition: 0.4s;*/
+    line-height: 35px;
+    text-align-last: left;
+    width: 400px;
+
+}
+
+.searchInput::placeholder {
+    color: rgb(237, 220, 71);
+}
+
+/*@media screen and (max-width: 620px) {
+    .searchBox:hover > .searchInput {
+        width: 150px;
+        padding: 0 6px;
+    }
+}*/
+
+
+
+#googlemap {
+    width: 600px;
+    height: 500px;
+    background-color: grey;
+    margin-top: 40px;
+    margin-left: 850px;
+    margin-bottom: 100px;
+    border-color: rgb(32, 21, 54);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.googlemaptext {
+    font-family: cursive;
+    font-size: 20px;;
+    line-height: 0.5;
+    margin-left: 850px;
+    margin-top: 120px;
+    color: rgb(129, 11, 208);
+}
+
+.googlemaptext h5 {
+    font-size: 15px;
+    line-height: 1.15;
+    margin-left: 450px;
+    margin-bottom: -35px;
+    margin-top: -4px;
+    color: rgb(27, 189, 234);
+}
+
+/*.map {
+    position: absolute;
+    top: 10;
+    bottom: 10;
+    width: 300px;
+    height: 300px;
+    /*background-color: grey*
+    align-self: center;
+}*/
+
+
+.informationsearch {
+    font-family: cursive;
+    position: absolute;
+    width: 700px;
+    height: 650px;
+    /*background-color: rgb(224, 213, 213);*/
+    background-color: rgba(224, 213, 213, 0.349);
+    align-self: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    border-color: rgb(32, 21, 54);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.informationsearch p {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 0.6;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.informationsearch p span {
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 0.6;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(162, 85, 214);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.562);
+    margin-top: 300px;
+    padding: 10px 0;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.copy1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: monospace;
+    line-height: 1.42857143;
+    margin: 0;
+    color: rgb(221, 255, 231);
+}
+
+.socials {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/*Socials Github*/
+
+.socials-github {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 1300px;
+    font-family: sans-serif;
+}
+
+.socials-github img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+/*Socials Twitter*/
+
+.socials-twitter {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 1000px;
+    font-family: sans-serif;
+    margin-top: -42px;
+}
+
+.socials-twitter img {
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+}
+
+/*Socials Discord*/
+
+.socials-discord {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 700px;
+    font-family: sans-serif;
+    margin-top: -42px;
+}
+
+.socials-discord img {
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+}
+
+/*Socials Instagram*/
+
+.socials-instagram {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 400px;
+    font-family: sans-serif;
+    margin-top: -42px;
+}
+
+.socials-instagram img {
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+}
+
+/*Socials Youtube*/
+
+.socials-youtube {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    margin-top: -42px;
+}
+
+.socials-youtube img {
+    width: 30px;
+    height: 30px;
+    margin-top: -30px;
+}
+
+/* powered by */
+
+.poweredby {
+    font-family: monospace;
+    line-height: 1.42857143;
+    margin-left: 100px;
+    color: rgb(221, 255, 231);
+}
+
+.poweredby p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin: 0;
+    color: rgb(221, 255, 231);
+}
+
+.poweredby p a {
+    color: rgb(0, 255, 76);
+}
+
+/* api usings */
+
+.api-usings {
+    font-family: monospace;
+    line-height: 1.42857143;
+    margin-left: 100px;
+    color: rgb(221, 255, 231);
+}
+
+.api-usings p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin: 0;
+    color: rgb(221, 255, 231);
+}
+
+.api-usings p a {
+    color: rgb(0, 255, 76);
+}
+
+/* translators */
+
+.translators {
+    font-family: monospace;
+    line-height: 1.42857143;
+    margin-left: 100px;
+    color: rgb(221, 255, 231);
+}
+
+.translators p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin: 0;
+    color: rgb(221, 255, 231);
+}
+
+.translators p a {
+    color: rgb(0, 255, 76);
+}
+
+.translators li {
+    margin-left: 10px;
+}
+
+.centerfooterinfo {
+    margin-left: 800px;
+    margin-top: -80px;
+    margin-bottom: 50px;
+}
+
