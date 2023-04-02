@@ -1,4 +1,4 @@
 # IPGEOLOCATE
 IPGEOLOCATE
 
-https://happyrogelio7.xyz/IPGEOLOCATE/es/index.html
+https://happyrogelio7.xyz/IPGEOLOCATE/
