@@ -1,4 +1,4 @@
-const IP_API = "http://ip-api.com/json";
+const IP_API = "https://ip-api.io/json";
 
 fetch(IP_API)
 
